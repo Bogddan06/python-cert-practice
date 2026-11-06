@@ -1,0 +1,1423 @@
+
+Page 1
+roomAssignment("Sherlock Sassafrass', 4)
+roomAssignment(year=6, name='Minnie George')
+8.
+A bank must generate a report that shows the average balance for all customers each day.
+The report must truncate the decimal portion of the balance.
+Which two code segments achieve the goal? Each correct answer presents a complete
+solution. (Choose 2.)
+• average balance = float(total deposits // number_of_customers)
+• average balance = total deposits " number_ of customers
+• average balance = int(total deposits / number _of_customers)
+i average balance = total deposits // number _of _customers
+9.
+Page 2
+Nume: | Schiopu
+1.
+You are designing a decision structure to convert student's numeric grades (grade") to
+letter grades (letter grade*).
+The program must assign letter grades as specified in the following table:
+Percentage range Letter grade
+90 through 100 A
+80 through 89 B
+70 through 79 C
+65 through 69 D
+0 through 64 F
+For example, if the user enters a 90, the output should be "Your letter grade is A"
+Likewise, if a user enters an 89, the output should be "Your letter grade is B"
+Complete the code by selecting the correct code segment from each drop-down list.
+python
+#Letter Grade Converter
+grade = int(input("Enter a numeric grade"))
+if grade >= 90:
+~ # dropdown 1
+letter grade = 'A'
+it grade >= 80 and grade ≤ 90: ~ # dropdown 2
+letter grade = 'B'
+it grade >= 70 and grade < 80 ~ # dropdown 3
+letter grade = 'C'
+if grade >= 65 and grade ≤ 70 ~ # dropdown 4
+letter grade = D'
+else:
+letter_grade = 'F'
+Page 3
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+You are creating a Python program that compares numbers. You write the following
+code. Line numbers are included for reference only.
+01 num1 = eval(input ("Please enterthe first number: "))
+02 num2 = eval(input ("Please enter the second number: "))
+03 ifnum1 == num2:
+04 print("The two numbers are equal.")
+05 if num1 <= num2:
+06 print("Number 1 is less than number 2.")
+07 if num1> num2:
+08 print("Number1 is greater than number 2.")
+09 if num2 = num1:
+10 print("The two numbers are thesame.")
+You need to ensure that the comparisons are accurate. For each statement, select
+True or False. Note: You will receive partial credit for each correct selection.
+The print statement at line 04 will print only if the two numbers are equal in value.
+• Yes • No
+The print statement at line 06 will print only if numt is less than num2.
+• Yes ® No
+The print statement at line 08 will print only if num is greater than num2
+• Yes O No
+The statement at line 09 is an invalid comparison.
+• Yes O No
+Q Search
+Page 4
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+Submitting in 0-00 mime
+6.
+You create the following Python function to calculate the power of a number. Line
+numbers are included for reference only.
+01 # The calc power function calculates exponents
+02 # x is the base
+03 # y is the exponent
+04 # The value of x raised to the y power is returned
+05 def calc power(x. y):
+06 comment = "# Return the value"
+07 return x ** y # raise x to the y power
+For each statement, select True or False.
+Python will not check the syntax of lines 01 through 04.
+• Yes • No
+The pound sign (#) is optional for lines 02 and 03.
+• Yes • No
+The string in line 06 will be interpreted as a comment.
+• Yes ® No
+Line 07 contains an inline comment.
+• Yes O No
+Page 5
+• open ("local data", "*+")
+10.
+You need to write code that performs the following tasks:
+• Call the process() function.
+• If the process() function throws an error, call the logError) function.
+• Always call the displayResult) function after calling the process) function.
+Complete the code by moving the appropriate code segments from the list on the left to
+the correct locations on the right
+try:
+process
+except:
+logError
+finally:
+displayResult)
+assert:
+11.
+Page 6
+Which code segment should use at line 03?
+while (index < 10) v
+Which code segment should use at line 06?
+if numbers(index) == 6
+27.
+You develop a Python application for your company.
+You need to complete the code so that the print statements are accurate
+Complete the code by selecting the correct code segment from each drop-down list.
+numList = [1, 2, 3, 4, 5]
+alphaList = [a". "b*, "c*, "d", "e"]
+if numList == alphalist
+print("The values in numList are equal to alphaList")
+else:
+print("The values in numList are not equal to alphaList")
+28.
+Q Search
+Page 7
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+= taktestx10.mx/start_test php?test id=31
+Submitting in 0:00 minut
+name=input(*Please enter your name (q to quit)? *)
+22.
+A company needs help updating their file system. You must create a simple
+file-manipulation program that performs the following actions:
+Creates a file using the specified name.
+Appends the phrase "End of listing" to the file.
+You need to complete the code to meet the requirements.
+Complete the code by selecting the correct code segment from each drop-down list.
+import os
+file =
+open ("myFile txt, "a") ~
+file write
+v ("End of listing")
+file.close()
+23.
+Review the following code segment:
+Page 8
+21:58 C
+•ll 4G
+IMAGE 2025-10-...
+• Displays a message box that allows user input
+13.
+Review the following code:
+x = "oranges"
+y = "apples"
+z = "bananas"
+data = "(1} and {0} and {2}"
+print(data.format(z, y, x))
+What is the output of the print statement?
+oranges and apples and bananas
+apples and bananas and oranges
+• bananas and oranges and apples
+• apples and oranges and bananas
+Page 9
+22:00 €
+•ll 4G
+IMAGE 2025-10-...
+Submitting in 0,00 mint
+8.
+You are writing a Python program to determine if a number (num) the user inputs is one,
+two, or more than two digits (digits).
+Complete the code by selecting the correct code segment from each drop-down list.
+num = int(input("Enter a number with 1 or 2 digits: "))
+digits = "0"
+it num > -10 and num < 10:
+digits = "1"
+elif num > -100 and num < 100:
+digits = "2"
+else:
+digits = ">2"
+print(digits + " digits.")
+Page 10
+95 taitestx10.mx/start_test.php?test id=31
+Submitting in 0:00 minutes...
+33.
+You are creating a Python program that will let a user guess a number from 1 to 10
+The user is allowed up to three guesses. If the user guesses the correct number, the
+program must stop asking for guesses. Complete the code by moving the appropriate code
+segments from the list on the left to the correct locations on the right. You may use
+each code segment once, more than once, or not at all.
+from random import randint
+target= randint(1,10)
+chance = 1
+print("Guess an integer from 1 to 10. You will have 3chances."
+while chance <= 3:
+guess = int(input("Guess an integer: "))
+it guess > target:
+print( "Guess is too high")
+elif guess < target:
+print("Guess is too low")
+else:
+print("Guess is just right!")
+chance += 1
+chance = 2
+while chance < 3;
+Q Search
+Page 11
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+apples and oranges and bananas
+14.
+The Script.py file contains the following code:
+import sys
+print(sys.argv[2])
+You run the following command:
+python Script.py Cheese Bacon Bread
+What is the output of the command?
+• Bread
+• Script.py
+• Cheese
+• Bacon
+Page 12
+E random.randint(5, 11)
+• random.randrange(5, 12, 1)
+30.
+Complete the statements about assert methods by selecting the correct option from each drop-down list.
+To test that the value of variables a and b are the same, use: assertEqual(a, b) ~
+To test that objects a and b are the same, use: assertis(a, b)
+To test weather a value exists in a list, use
+31.
+You are writing a function to perform safe division of numbers.
+You need to ensure that a denominator and numerator are passed to the function and that the denominator is not zero.
+Complete the code by selecting the correct code segment from each drop-down list.
+def safe divide (numerator, denominator):
+if numerator is None and denominator is None: ~
+print("A required value is missing.")
+eilt denominator == 0 y
+print("The denominator is zero.")
+=
+Page 13
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+ValueError:
+in Not a valid number. Try again...*)
+5.
+For each statement about try statements, select True or False.
+A try statement can have one or more except clauses.
+• Yes O No
+A try statement can have a finally clause without an except clause.
+• Yes O No
+A try statement can have a finally clause and an except clause.
+• Yes • No
+A try statement can have one or more finally clauses.
+• Yes @ No
+ô.
+Page 14
+Submitting in
+29.
+You are writing code to meet the following requirements:
+• Allow users to repeatedly enter words.
+• Output the number of characters in each word.
+Complete the code by selecting the correct option from each drop-down list.
+x = "Hello"
+while
+xx != "QUIT":
+num = 0
+for
+char in
+v x:
+num += 1
+print(num)
+x = input("Enter a new word or QUIT to exit: ")
+30.
+A coworker wrote a program that inputs names into a database. Unfortunately, the program
+reversed the letters in each name.
+Page 15
+(10:0)
+Submitting in 0:00 minutes.
+(5:1f)
+(7:21
+26.
+You are writing a program that calculates a user's approximate year of birth
+The program asks users for the user's age (age") and the current year (year*),
+then outputs the user's approximate year of birth ("born*) in a message (message*).
+You write the following code:
+age = input("Enter your age: ")
+year = 2000
+born = year - int(age)
+message = "You were born in " + str(born)
+print(message)
+Evaluate the code and answer the questions by selecting the correct option from each drop-down list.
+What data type is age in line 01?
+What data type is born in line 03?
+What data type is message in line 05?
+27.
+Review the following program. Line numbers are for reference only:
+def petStore(category, species, breed = "none*):
+print(f"in You have selected an animal from the (category) category.")
+Page 16
+ingenerate an enor m line u2 and line 05.
+• Yes • No
+The code will correctly output data to the console.
+• Yes • No
+18.
+You are developing a Python application for your company. You write the following code:
+print(numList is alphaList)
+print(numList == alphaList)
+numList = alphaList
+print(numList is alphaList)
+print(numList == alphaList)
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+What is displayed after thr first print? False
+What is displayed after thr second print? False
+What is displayed after thr third print? True
+What is displayed after thr fourth print? True
+19.
+The Script.py file contains the following code:
+import sys
+Page 17
+31.
+A game development company needs a way to find the number of words in a list that
+contain a specific letter.
+Complete the code by selecting the correct code segment from each drop-down list.
+Note: You will receive partial credit for each correct selection.
+# Function accepts list of words and letter to search for.
+# Returns count of the number of words that contain that letter.
+def count letter(letter, word list):
+count = 0
+Tot
+word in word _list
+if letter in word:
+count += 1
+# word list is populated by the readWords) function. Code not shown.
+word list = readWords)
+letter = input("Which letter would you like to count")
+letter count = count letter(letter, word list)
+print(*There are:*, letter count, * words that contain*, letter)
+32.
+Q Search
+Page 18
+2.
+You need to identify the data types of various type operations
+Move the aporopriate data types from the list to the correct type operations on the
+right.
+You may use each data type once, more than once, or not at all.
+type(+1E10) →
+type(5.0) -
+float
+type("True") →
+str
+type(False) -
+bool
+Q
+Search
+Page 19
+Submitting in 0:00 minutos.
+13.
+You are wring a Python program that evaluates an arithmetic formula
+The formula te heechihat ne
+b equa's a multipled by negative one, then raised to the second power"
+where a s the value that will be inbut and bris tha tosak
+You create the following code segment. Line numbers are included for reference only:
+01 a = int(input("Enter a number for the equation. ")
+Vai mau ung cach code hamant onch. morn than onch. or not at aili
+14
+Answer the questions about documenting Python code by selecting the correct option tron
+Page 20
+Sa lactent 10.me/start text.php?test 1d=31
+Submitting in 0:00 minutes..
+35.
+You write the following code to determine a student's final grade based on their current
+grade crade and rank (rank):
+grade = 76
+rank =3
+if grade > 80 and rank >= 3
+grade += 10
+alit orade >= 70 and rank a ?
+arade += 5
+Rise
+grade = 5
+print(grade)
+What value will print?
+• 74
+0 76
+1 811
+- 86
+Search
+Page 21
+ter grade based on the tol
+americ grade as a whole i
+le correct code segment i
+eise:
+index += 1
+22.
+You are writing code to meet the following requirements:
+• Allow users to repeatedly enter words.
+• Output the number of characters in each word.
+Complete the code by selecting the correct option from each drop-down list.
+x = "Hello"
+while
+~ x != "QUIT":
+num = 0
+for
+char in
+num += 1
+print(num)
+x = input("Enter a new word or QUIT to exit: ")
+23.
+You are writing code to return a letter grade based on the following criteria:
+- Thevariable grade stores the numeric grade as a whole number between 0 and 100
+- Grades from 90 to 100 = A.
+- Grades from 80 to 90
+Page 22
+22:00 €
+•ll 4G
+IMAGE 2025-10-...
+CIa taktestx10.mx/start._test.php?test.id a31
+Submitting in 0:00 minu
+21.
+You are writing a program to randomly assign rooms (room_number) and team-building
+groups (group) for a company retreat.
+Complete the code by selecting the correct code segment from each drop-down list.
+import random
+roomsAssigned=[1]
+room_number=1
+groupList-["Ropes", "Rafting". Obstacle", "Wellness"
+count=0
+print("Welcome to CompanyPro's Team-Building Weekend!*)
+name=input("Please enter your name (q to quit)? *)
+while name.lower() != 'q' and count < 50:
+while room number in roomsAssigned:
+roon_ number- randorn. randint(1,50)~
+print(f"(name), your room number is (room_number)")
+roomsAssigned.append(room number)
+group = random. chioce(groupList)
+print(f"You will meet with the (group) Group this afternoon.")
+name=input(*Please enter your name (a to quit)? *)
+22.
+Page 23
+elif denominator == 0
+print("The denominator is zero.")
+else:
+return numerator / denominator
+32.
+You create the following program to locate a conference room and display the room name.
+The program outputs "Room does not exist." even when 1 or 2 is entered.
+01 rooms = {1: 'Foyer', 2: 'Conference Room'
+02 room = input('Enter the room number:")
+03 if not room in rooms:
+04 print('Room does not exist.')
+05 else:
+06 print("The room name is " + rooms[room])
+Evaluate the code and answer the questions by selecting the correct option from each drop-down list.
+Which two data types are stored in the rooms dictionary at line 01? int and string
+What is the data type of room at line 02? str
+Why does line 03 fail to find the rooms?
+Invalid syntax
+33.
+You are creating an eCommerce script that accepts input from the user and outputs the data in a comma-delimited format
+Page 24
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+Submitting in D:00 minu
+18.
+For each statement about the following function, select True or False.
+def
+grosspay(hours=40, rate=25, pieces=0, piecerate=0, salary=0):
+overtime= 0
+if pieces > 0:
+retur pieces * piecerate
+if salary > 0:
+pass
+if hours > 40:
+overtime = (hours-40) * (1.5 * rate)
+return overtime + (40 rate)
+else:
+return hours rate
+Note: You will receive partial credit for each correct selection.
+A function call of grosspay() will create a syntax error.
+• Yes • No
+A function call of grosspay(salary=50000) will retur nothing.
+• Yes • No
+A function call of grosspay(pieces=500, piecerate=4) will return a result of 2000
+© Yes © No
+Page 25
+1o meet the requirements, you must change line 01 to: def increment score(score, bonus, points = 1):
+• Yes O No
+If you do not change line 01 and the function is called with only two parameters, an error occurs
+• Yes • No.
+Line 03 will also modify the value of the variable points declared at line 06.
+• Yes • No
+29.
+You are writing code to generate a random integer with a minimum value of 5 and a maximum value of 11.
+Which two functions should you use? Each correct answer presents a complete solution. (Choose 2.)
+• random.randint(5, 12)
+• random.randrange(5, 11, 1)
+* random.randint(5, 11)
+• random.randrange(5, 12, 1)
+30.
+Complete the statements about assert methods by selecting the correct option from each drop-down list
+To test that the value of variables a and b are the same, use: assertEqual(a, b) ~
+To test that objects a and b are the same, use: assertis(a, b)
+To test weather a value exists in a list, use assertin(a, b)
+Page 26
+What is the data type of room at line 02? str
+Why does line 03 fail to find the rooms? Invalid syntax
+33.
+You are creating an eCommerce script that accepts input from the user and outputs the data in a comma-delimited format.
+You write the following code to accept input:
+item = input("Enter the item name:")
+sales = int(input*Enter the quantity: *))
+The output must meet the following requirements:
+• Enclose strings in double quotes.
+• Do not enclose numbers in quotes or other characters.
+• Separate items by commas.
+Which two code segments could you use? Each correct answer presents a complete solution. (Choose 2.)
+• print(item +*, + sales)
+• print("0". (1} format(item, sales))
+print(*™ + item + '***, sales)
+• print("(0}*, (1}. format(item, sales))
+34.
+Page 27
+i command will print the docstring? print(cube doe
+15.
+You develop a Python application for your company. A list named employees
+contains 200 employee names, the last five being company management. You need to slice
+the list to display all employees excluding management. Which two code segments should
+you use? Each correct answer presents a complete solution. (Choose 2.)
+• employees[1:-5]
+• employees(0:-5)
+• employees(1:-4]
+• employees[0:-4]
+• employees(:-5]
+16.
+You are creating a function that manipulates a number passed into the function as a
+float value. The function must perform the following tasks: • Take the absolute
+value of the float. • Remove any decimal points after the integer. Which
+two math functions should you use? Each correct answer is part of the solution. (Choose
+2.)
+ta math.floor (x)
+1 math.fabs(x)
+Page 28
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+Submitting in 0:00 minutes.
+19.
+You are building a Python program that displays all prime numbers from 2 to 100. (A
+prime number is any number that is divisible only by itself and 1.)
+Complete the code by moving the appropriate code segments from the list on the left to
+the correct locations on the right.
+p = 2 while p <= 100: is prime
+= True
+for i in range(2, p):
+if p % i am 0:
+is prime = False
+if is prime == True:
+print(p)
+p = 2 is_ prime = True while p
+<= 100:
+Q Search
+Page 29
+• printi"™' + item + ***,:. sales)
+• print('"(0}", (1) format(item, sales))
+34.
+A bank is migrating their legacy bank transaction code to Python.
+The bank hires you to document the migrater code.
+Which documentation syntax is correct?
+* def get_balance):In # Returns the current balance of the bank accountin return balance
+• // Returns the current balance of the bank accountindef get balance):In return balance
+• def get_ balance): In /* Returns the current balance of the bank account *An return balance
+• ' Returns the current balance of the bank accountindef get balance):In return balance
+35.
+Page 30
+Submitting in 2:54 minutes.
+You are willing a Python application that includes multiple operations on the same line
+You need to determine the correct order of operations.
+Move the type of operation from the list on the left to the correct locations on the
+with the type of operation that will be performed first at the top and the type of
+that will be performed last at the bottom
+Operation type performed first:
+Operation type performed second:
+Operation type performed third:
+Unary positive, negative, not
+Operation type performed fourth
+Multiplication and Division
+Operation type performed fifth:
+Addition and Subtraction
+Operation type performed last:
+And
+Q Search
+Page 31
+Submitting in 0:00 minutes.
+A picycie company is creating a program that allows customers to log the number of miles
+MADE
+The program will send messages based on how many miles the customer logs
+ou write the following Python code. Line numbers are included for reference only
+02 name = input(*What is your name? *)
+us relumn name
+04
+05 calories = miles * calories per mile
+06 return calories
+07 distance = int(input("How many miles did you bike this week? ")
+08 burn_rate = 50
+09 biker = get namel)
+10 calories burned = calc calories(distance, burn rate)
+11 print(biker,*, you burned about*, calories burned, " calories.")
+You need to define the two required functions,
+Which two code segments should you use for line 01 and line 04?
+Each correct answer presents part of the solution. (Choose 2.)
+• 01 def get_name):
+• 01 def get_name(biker):
+• 01 def get name(name):
+• 04 def calc calories:
+• 04 def calc_ calories(miles, bur_rate):
+« 04 def calc calories(miles, calories_ per_mile):
+Q Search
+Page 32
+22:00 L
+•Ill 4G
+IMAGE 2025-10-...
+main
+4.
+You are creating a program that accepts user input. The program must cast the input into
+an integer, and properly handle the error if it cannot do so.
+while True:
+try:
+x= int(input("Please enter a number: ")
+break
+except
+~ ValueError:
+print("Not a valid number. Try again...")
+For each statement about try statements, select True or False.
+A try statement can have one or more except clauses
+Page 33
+5.
+You are creating a program to calculate the rental fee for DVDs. The fee structure is as
+follows:
+• The default cost (cost_per night') is $1.59 per night.
+• If the customer returns the DVD after 8 PM, they are charged for an extra night.
+• Sunday DVD rentals receive a 30% discount for the full length of the rental.
+• Thursday DVD rentals receive a 50% discount for the full length of the rental.
+Complete the code to meet the requirements by selecting the correct code segment from
+each dropdown list.
+#DVD Rental Calculator
+ontime = input("Was the video returned before 8 PM? Y or N"). lower)
+days_rented = int(input("How many days was the video rented?"))
+weekday = input(*What day was the video rented?") capitalize()
+cost_per_ night = 1.59
+if ontime
+= *n*.
+days_rented +=1
+if weekday = "Sunday
+total = (days rented * cost per _night) * 0.7
+elif weekday == Thursday
+total = (days rented * cost per night) • 0.5
+else:
+total = days rented * cost_per night
+print("Cost of the DVD rental is : $°, total)
+6.
+Page 34
+Submitting in 0:00 minutes
+17.
+The following function calculates the value of an expression that uses an exponent. Line
+numbers are included for reference only.
+01 def calc power(a, b):
+02 return a **b
+03 base = input("Enter the number for the base: ")
+04 exponent = input("Enter the number for the exponent:")
+05 result = calc_ power(base, exponent)
+06 print("The result is " + result)
+For each statement, select True or False.
+The code will generate an error in line 03 and line 04.
+• Yes • No
+The code will generate an error in line 02 and line 05.
+• Yes O No
+The code will correctly output data to the console.
+• Yes • No
+18.
+You are developing a Python application for your company. You write the following code:
+numList = [1, 2, 3, 4, 5]
+alphaList = ["a", "b", "c", "d", "e"]
+print(numList is alphaList)
+print(numList == alphaList)
+Page 35
+Other code can open the file after this code runs.
+* Yes O No
+25.
+You are writing a function to read a data file and print the results as a formatted table.
+You write code to read a line of data into a list named fields.
+The printout must be formatted to meet the following requirements.
+• Fruit name (fields[0)): Left-aligned in a column 10 spaces
+Wight (feids(1): Right-aligned in a column 5 spaces wide with one digit after the decinial point.
+• Price (fieids 21): Right-aligned in a column 7 spaces wide with two digits after the decimal point.
+The following shows a sample output
+Oranges 5.6 1.33
+Complete the code using drag-and-drop by placing the correct formatting segments:
+..HI
+(2:7.20)
+.format(fields(0). eval(fields(1|), eval(felds(2D))
+{5:11)
+26.
+Page 36
+taktotaTO.mw/start test.phy/fest_id 31/
+Submitting in 0:00 mnutes
+30.
+A coworker wrote a program that inputs names into a database. Unfortunately, the program
+reversed the letters in each name
+You need to write a Python function that outouts the characters in a name in the correct
+order
+Complete the code by selecting the code segment from each drop-down list
+#Function reverses characters in a string
+# returns new string in reversed order.
+Get reverse_name(backward_name):
+forward name =
+lenath =
+Jen(backward name)
+while length >= 0:
+forward name +=
+backward neme lenothi
+length = lenath - 1
+return forward name
+print(reverse_name("nohtyp*))
+31.
+Q Search
+Page 37
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+The code will generate an error in line 02 and line 05.
+• Yes O No
+The code will correctly output data to the console.
+• Yes @ No
+12.
+What does the following statement do? \nindata = input()
+• Allows a user to enter text in the console
+• Creates an HTML input element
+• Displays all input peripheral devices on the computer
+• Displays a message box that allows user input
+2
+Page 38
+finally:
+displayResult)
+11.
+A company needs help updating their file system
+You must create a simple file-manipulation program that performs the following actions:
+- Checks to see whether a file exists,
+- If the file exists, displays its contents
+Complete the code by selecting the correct code segment from each drop-down list
+import os
+if os exist(myFile txr)
+file = open(myFile, txt*)
+print(file.read))
+file.close()
+12.
+You are writing code to create an E shape from asterisks. You need to print five lines
+of code,
+with four asterisks each on the first, third, and fifth lines and one asterisk each on
+the second and fourth lines, as shown.
+Page 39
+Sonerie
+ace the notes within /* and */ in any code segment.
+Place the notes within in any code segment.
+16.
+A company needs help updating their file system.
+You must create a simple file-manipulation program that performs the following actions:
+- Checks to see whether a file exists.
+- If the file exists, displays its contents.
+Complete the code by selecting the correct code segment from each drop-down list.
+import os
+if
+os.exist("myFile.txt"):
+print(file.read0)
+file.close )
+17.
+Page 40
+Submitting in 0:00 minutes
+26.
+You find errors while evaluating the following code. Line numbers are included for
+reference only.
+01 numbers = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+02 index = 0
+03 while(index < 0)
+04 print(numbers|index])
+05
+06 if numbers(index) = 6
+07 break
+08 else:
+09 index += 1
+You need to correct the code at line 03 and line 06.
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+Which code segment should use at line 032
+while (index < 10)
+Which code segment should use at line 06?
+if numbers(index] == 6: v
+27.
+Q Search
+Page 41
+for
+~ char in
+num += 1
+print(num)
+x = input("Enter a new word or QUIT to exit: ")
+23.
+You are writing code to retur a letter grade based on the following criteria:
+- Thevariable grade stores the numeric grade as a whole number between 0 and 100.
+- Grades from 90 to 100 = A.
+- Grades from 80 to 89 = B.
+- Grades from 70 to 79 = C
+- All other grades are failing
+Complete the code by selecting the correct code segment from each drop-down list.
+grade <= 100:
+~ grade>= 90:
+print("Your grade is A.")
+~ grade >= 80:
+print("Your grade is B.*)
+elif
+~ grade < 80
+and
+~ grade> 69:
+print("Your grade is C.")
+else
+print("Your grade is failing.")
+else
+print("Invalid grade entered.")
+24.
+Page 42
+Submitting in 0:00 minu
+Other code can open the file after this code runs.
+@ Yes • No
+24.
+You need to identify the results of performing various slicing operations on the
+following sequence structure:
+alph = "abcdefghijkimnopqrstuvwxyz"
+Move the appropriate results from the list on the left to the correct slicing operations
+on the right.
+You may use each result once, more than once, or not at all.
+alph[3:6]
+alph[:6]
+abcdef
+cde
+abede
+Page 43
+ta taktestse10.mx/start_test.php?test.id =31
+Submitting in 0:00 minutes..
+28.
+You are creating a function to calculate admission fees (admission fee) based on the
+following rules:
+• Anyone under age 5 = free admission
+• Anyone age 5 or older who is in school = $10
+• Anyone age 5 to 17 who is not in school = $20
+• Anyone older than age 17 who is not in school = $50
+rate represents the price in dollars.
+Complete the code by selecting the correct code segment from each drop-down list.
+def admission fee(age, school):
+if age >= 5 and school == True
+rate = 10
+eise age ≥= 5 and school == False:
+if age <= 17
+tate = 20
+eise:
+rate = 50
+retum rate
+29.
+Q Search
+Page 44
+32.
+Review the following code segment:
+product = 2
+n = 5
+while (n != 0):
+product *= n
+print (product)
+n-= 1
+if n == 3:
+break
+How many lines of output does the code print?
+0 1
+02 2
+03
+0.4
+33.
+You are creating a Python program that will let a user guess a number from 1 to 10.
+Q Search
+Page 45
+pontifite read?))
+file. close)
+12.
+You are writing code to create an E shape from asterisks. You need to print five lines
+of code,
+with four asterisks each on the first, third, and fifth lines and one asterisk each on
+the second and fourth lines, as shown.
+Complete the code by selecting the correct numbers in the boxes. Enter each number as an
+integer
+result str = -
+for row in range(1, 6
+for column in range(1, 5
+(row == 1 or row == 3 or row == 5)
+result str = result str + -
+elif column == 1:
+result str = result str + *--
+result str = result str + "in*
+print(result str)
+13.
+Page 46
+ozy ragging me appropriate code segments into the correct
+locations.
+You may use each code segment once, more than once, or not at all.
+14.
+Answer the questions about documenting Python code by selecting the correct option from
+each drop-down list.
+Whitch caracter(s) signal the beginning and ending of single-line docstring?
+When documenting a function, what is the standart location for the docstring? Immediately after the function header
+Review the following function:
+def cube(n):
+*** Returns the cube of number n *
+return n*n*n
+Whitch command will print the docstring? print(cube. doc
+15.
+You develop a Python application for your company. A list named employees
+contains 200 employee names, the last five being company management. You need to slice
+the list to display all employees excluding management. Which two code segments should
+you use? Each correct answer presents a complete solution. (Choose 2.)
+Page 47
+3.
+You need to test whether an object is an instance of a specific class.
+Complete the code by selecting the correct option from each drop-down list.
+import import
+unittest
+class TestisInstance unittest. TestCase
+def test _isinstance(self) ~ (self):
+self assertisinstance(obj, cls, msg=None)
+if_ name_ ==' main_:
+unittest.main()
+4.
+Page 48
+CE taktestsx10.mx/start. testphp?test.id=31
+Submitting in 0:00 minut
+25.
+You work on a team that is developing a game.
+You need to write code that generates a random number that meets the following
+requirements
+Ine numberis a multiple of 5)
+• The lowest number is 5
+- The highest number is 100
+Which two code segments will meet the requirements? Each correct answer presents a
+complete solution. (Choose 2.)
+• from random import randrange print(randrange(0, 100, 5))
+• from random import randint print(randint(0, 20) * 5)
+t2 from random import randint print(randint(1, 20) * 5)
+™ from random import randrange print(randrange(5, 105, 5))
+26.
+You find errors while evaluating the following code. Line numbers are included for
+reference only.
+Page 49
+is the toil
+n error. c
+netion atl
+moral deposits / number of customers)
+average_balance = total deposits // number_of_ customers
+9.
+You are developing a Python application for your school. The application must read and
+write data to a text file.
+If the file does not exist, the application must create it. If the file contains
+content, the application must delete the content.
+Which code segment should you use?
+• open("local _data", "w")
+• open("local data", *P)
+P open ("local _data", w+*)
+• open ("local data, **+*)
+10.
+Page 50
+To test that objects a and b are the same, use: assertis(a, b)
+To test weather a value exists in a list, use assertin(a, b)
+31.
+You are writing a function to perform safe division of numbers.
+You need to ensure that a denominator and numerator are passed to the function and that the denominator is not zero
+Complete the code by selecting the correct code segment from each drop-down list.
+def safe divide (numerator, denominator):
+if numerator is None or denominator is None
+print("A required value is missing.")
+elif denominator = 0: v
+print("The denominator is zero.")
+else:
+retur numerator / denominator
+32.
+You create the following program to locate a conference room and display the room name.
+The program outputs "Room does not exist." even when 1 or 2 is entered.
+Page 51
+20.
+You write the following code:
+a = 'Config1'
+print(a)
+b = a
+a += 'Config2'
+print(a)
+print(b)
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+What is displayed after the second print? ConfigtConfig2 ~
+What is displayed after the third print? Configt
+21.
+You are developing a Python program for an online product distribution company.
+Page 52
+• employees(0:-4]
+• employees[:-5]
+16.
+You are creating a function that manipulates a number passed into the function as a
+float value. The function must perform the following tasks: • Take the absolute
+value of the float. • Remove any decimal points after the integer. Which
+two math functions should you use? Each correct answer is part of the solution. (Choose
+2.)
+• math.floor(x)
+2 math.fabs(x)
+• math.fmod (x)
+• math.frexp(x)
+17.
+The following function calculates the value of an expression that uses an exponent. Line
+numbers are included for reference only.
+01 def calc power(a, b):
+02 return a**b
+03 base = input("Enter the number for the base: ")
+04 exponent = input("Enter the number for the exponent: *)
+Page 53
+27.
+Review the following program. Line numbers are for reference only:
+def petStore(category, species, breed = "none"):
+printf"in You have selected an animal from the (category) category.")
+if breed == "none".
+print(f' The (category) you selected is a (species)")
+else:
+print(f" The (category) you selected is a (species) (breed)*)
+category = input("Enter dog, cat, or bird:")
+species = input("Enter species:"
+if category == "dog" or category == "cat":
+breed = input("Enter breed:")
+petStore(category, species, breed)
+else:
+petStore(category, species)
+petStore(breed="Maltese", species="Canine", category="dog")
+petStore("bird", species="Scarlet Macaw")
+For each statement about the program, select True or False.
+The function returns a value.
+• Yes ® No
+The function calls at lines 12 and 15 are valid.
+• Yes O No
+The function calls at lines 14 and 16 will result in an error.
+• Yes • No
+28.
+Page 54
+4.
+A company asks you to debug some code that is causing problems with their payroll. They
+ask you to find the source of the payroll errors.
+The following variables have been declared:
+employee pay = [15000, 120000, 35000, 45000]
+count = 0
+sum = 0
+There are two errors in the following code:
+for index in range(0, len(employee_pay)-1):
+sum += employee_pay[index]
+average = sum/count
+print(*The total payroll is.", sum)
+print("The average salary is:", average)
+Which code should you use to fix the errors?
+To answer, select the appropriate code segments in the answer area.
+for index in range
+(len(employee pay))
+count += 1
+sum += employee paylindex]
+average =
+sum/count
+print("The total payroll is:", sum)
+print("The average salary is:", average)
+5.
+Page 55
+ways tened cost per night
+print("Cost of the DVD rental is : $", total)
+6.
+For each statement about try statements, select True or False.
+A try statement can have one or more except clauses.
+• Yes • No.
+A try statement can have a finally clause without an except clause.
+• Yes O No
+A try statement can have a finally clause and an except clause.
+• Yes • No
+A try statement can have one or more finally clauses.
+• Yes • No
+7.
+Students are attending an activity night at their school. The following function tells
+students where to go for their activities:
+Page 56
+22:00 €
+•ll 4G
+IMAGE 2025-10-...
+file write
+file.closel)
+("End of listing")
+23.
+Review the following code segment:
+f = open("python.txt", "a")
+f.write("This is a line of text.")
+f.close()
+For each statement about the code segment, select True or False.
+A file named python.txt is created if it does not exist.
+• Yes O No
+The data in the file will be overwritten.
+• Yes © No
+Other code can open the file after this code runs.
+• Yes • No
+24.
+Q Search
+Page 57
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+The value 5.667 in displayed.
+Submitting in 0:00 mincr
+11.
+The following function calculates the value of an expression that uses an exponent.
+Line numbers are included for reference only.
+01 del calc power(a, b):
+02 return a "* b
+03 base = input("Enter the number for the base: ")
+04 exponent = input("Enter the number for the exponent: *)
+05 result = calc power(base, exponent)
+06 print("The result is " + result)
+For each statement, select True or False.
+The code will generate an error in line 03 and line 04.
+• Yes O No
+The code will generate an error in line 02 and line 05.
+• Yes • No
+The code will correctly output data to the console.
+• Yes • No
+Page 58
+submitting in 0:00 minutes.
+Students are attending an activity night at their school. The following function toll
+students where to go for their activities
+Jef roomAssignment(student, year)
+"Assign rooms to students"
+it year
+print("'in(student.tile()), please report to room 115")
+cit year.
+print((in(student.tite()), please report to room 210*)
+atif year an 3;
+print(rin[student tee()), please report to room 320')
+elif yoar == 4:
+printi/in/student ile()) please report to room 405*)
+elif year a= 5:
+printifin(student title()), please report to room 515°)
+else:
+print("in(student.title()), please report to room 625*)
+Which two code segments can be used to call the function? (Choose 2.)
+Each correct code segment is a complete solution.
+name = input(What is your name?)
+grade = 0
+while grade not in (1, 2, 3, 4, 5, 6):
+grade = intfinput/(What grade are you in (1-6)?))
+roomAssignment(name, year=grade)
+name = input(What is your name?)
+grade = 0
+while grade not in (1, 2, 3,4, 5, 6):
+grade = int(input What grade are you in (1-6)?'))
+roomAssignment(student, year)
+roomAssignment("Sherlock Sansafrass', 4)
+r0omAssignment(year=8, name-Minnie George')
+Page 59
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+Submitting in 0:00 minutes
+You are writing a function that increments the player score in a game
+The function has the following requirements:
+- Il no value is specified for points, then points start at one.
+- If bonus is True, then points must be doubled.
+You write the following code. Line numbers are included for reference only.
+01 def increment_score(score, bonus, points):
+02 if bonus == True:
+03 points = points * 2
+04 score = score + points
+05 return score
+06 points = 5
+07 score = 10
+08 new_score = increment_score(score, True, points)
+For each statement, select True or False.
+Note: You will receive partial credit for each correct selection.
+To meet the requirements, you must change line 01 to: def increment_ score(score, bonus, points = 1).
+• Yes O No
+If you do not change line 01 and the function is called with only two parameters, an error occurs.
+@ Yes O No
+Line 03 will also modify the value of the variable points declared at line 06.
+• Yes • No
+Q Search
+Page 60
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+15.
+You develop a Python application for your company.
+You want to add notes to your code so other team members will understand it.
+What should you do?
+• Place the notes after # on any line.
+• Place the notes after // on any line.
+• Place the notes within /* and */ in any code segment.
+• Place the notes within in any code segment.
+16.
+Page 61
+22:00 €
+•ll 4G
+IMAGE 2025-10-...
+= taktista 10.mx/start test php?test. id=31
+Submitting in 0:00 minutes...
+20.
+You are creating an eCommerce script that accepts input from the user and outputs the
+data in a comma-delimited format.
+You write the following code to accept input:
+rems nou ener the tem namer
+sales = int‹input(*Enter the quantity. *))
+The output must meet the following requirements:
+- Enclose strings in double quotes.
+- Do not enclose numbers in quotes or other characters.
+- Separate items by commas.
+You need to complete the code to meet the requirements.
+Which two code segments could you use? Each correct answer presents a complete solution.
+(Choose 2.
+• print(item + * + sales)
+• print(*(0),(1)" format(item, sales))
+E print('"(O}".(1). format(item, sales))
+• print(* + item + * : sales)
+21.
+Search
+Page 62
+28.
+You are writing a function that increments the player score in a game.
+The function has the following requirements:
+• If no value is specified for points, then points start at one.
+• If bonus is True, then points must be doubled.
+You write the following code. Line numbers are included for reference only:
+01 def increment score(score, bonus, points):
+02 if bonus == True:
+03 points = points * 2
+04 score = score + points
+05 return score
+06 points = 5
+a score = 10
+08 new _score = increment _score(score, True, points)
+For each statement, select True or False.
+To meet the requirements, you must change line 01 to: def increment _score(score, bonus, points = 1):
+• Yes © No
+If you do not change line 01 and the function is called with only two parameters, an error occurs.
+• Yes • NO.
+Line 03 will also modify the value of the variable points declared at line 06
+• Yes @ No
+29.
+Page 63
+3.
+You are writing a program to display special offers for My Healthy Eats Delivery. Line
+numbers are for reference only:
+01 import datetime
+02 dailySpecials=("Spaghetti" "Macaroni and Cheese", "Meatloaf". "Fried Chicken")
+03 weekendSpecials=("Lobster", "Prime Rib", "Parmesan-Crusted Cod")
+07 if today == "Friday" or today =
+07 finday Hearday or day ey "Saturday* or today =="Sunday:
+08 print("The weekend specials include:")
+09 for item in weekendSpecials:
+10 print(item)
+11 else:
+12 print("The weekday specials include:")
+13 for item in dailySpecials:
+14 print(item)
+16 print(f"Pricing specials change in (daysLeft) days*)
+Complete the code in lines 04, 05, and 15 by selecting the correct option from each
+drop-down list.
+In line 04, retrieve the current date. now = datetime datetime pow ~
+In line 05, retrieve the weekday. today = now strftime(*%*) ~
+In line 15, calculate the number of days left in the week. daysLeft = 6 - datetime datetime weekday) ~
+Page 64
+• * Returns the current balance of the bank accountindef get balance):in return balance
+35.
+You are creating an interactive Times Table Helper program intended for elementary school children.
+You need to complete a function named times tables that computes and displays all multiplication table results from 2 to 12, as shown below
+4 6 8 10 12 14 16 18 20 22 24
+6 9 12 15 18 21 24 27 30 33 36
+8 12 16 20 24 28 32 36 40 44 48
+10 15 20 25 30 35 40 45 50 55 60
+12 18 24 30 36
+4248 04
+0000
+14 21 28 35 42 49 56 63
+70 77 84
+16 24 32 40 48 56 64
+72 80 88 96
+18 21 36 45 34 63 72 81 90 99 108
+20 30 40 50 60 70 80 90
+110 120
+044b9on
+24 36 48 60 72 84 96 108 120 132 144
+Complete the missing code segments by selecting the correct options from each drop-down list.
+# Display time tables 2 - 12
+def times tables):
+for col in range(2, 13):
+for row in range(2, 13):
+print(row * col, end = ***)
+print)
+# main
+times tables)
+Trimite raspunsurile
+Testul a fost trimis cu succes!
+Page 65
+print("Your grade is failing.")
+else
+print("Invalid grade entered.")
+24.
+Review the following code segment:
+f = open("python.txt", *a")
+f.write(*This is a line of text.")
+f.close()
+For each statement about the code segment, select True or False.
+A file named python.txt is created if it does not exist.
+• Yes O No
+The data in the file will be overwritten.
+• Yes • No
+Other code can open the file after this code runs.
+• Yes O No
+25.
+Page 66
+22:00 L
+•ll 4G
+IMAGE 2025-10-...
+staldest.10.o/sturt_test.php/test_id=31
+Submitting In 0:00 minut
+10.
+A friend asks you to refactor and document the following Python code:
+value 1 = 9
+value2 = 4
+answer = (value1 % value2 * 10) // 2.0 ** 3.0 + value2
+You run the code,
+What is the result?
+• The value 5.0 is displayed.
+• A syntax error occurs.
+• The value 129 is displayed.
+• The value 5.667 is displayed
+11.
+Page 67
+prayed alter thr second print? False
+What is displayed after thr third print? True
+What is displayed after thr fourth print? True
+19.
+The Script.py file contains the following code:
+import sys
+print(sys.argv[2])
+You run the following command:
+python Script.py Cheese Bacon Bread
+What is the output of the command?
+• Bacon
+• Script.py
+• Bread
+• Cheese
+20.
+Page 68
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+What is displayed after the second print? ConfigtConfig2 ~
+What is displayed after the third print? Configt
+21.
+You are developing a Python program for an online product distribution company.
+The program must iterate through a list of products (productidList*) and escape when it
+finds a specific product ID.
+Complete the code by selecting the correct code segment
+from each drop-down list.
+productidList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+index= 0
+while
+~ (index < 10):
+print(productidList[index])
+if productidListfindex] == 6:
+break
+else:
+22.
+Page 69
+letter _grade = D
+else:
+letter grade = 'F'
+2.
+You are developing a Python application for your company.
+You need to accept input from the user and print that information to the user's screen.
+You start with the following code. Line numbers are included for reference only:
+01 print("What is your name?")
+02
+03 print(name)
+Which code should you write at line 02?
+• input(name)
+• name = input
+name = input()
+• input("name")
+3.
+Page 70
+Submitting in 0:00 minutes
+34.
+You write the following function to read a data file and print each line of the file.
+Line numbers are included for reference only.
+01 def read file(file):
+02 line = None
+03 it os. path.isfile(file):
+04 data = open(file,?)
+05 for line in data:
+06 print(line)
+When you run the program, you receive an error on line 03.
+What is causing the error?
+You need to import the os library.
+• The isfile method does not accept one parameter.
+• The isfile method does not exist in the path object.
+• The path method does not exist in the os object
+35.
+Q Search
