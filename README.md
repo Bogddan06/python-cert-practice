@@ -2,13 +2,17 @@
 
 A personal practice space for the six Certiport IT Specialist Python objective areas, with extra emphasis on hands-on coding for next-generation performance-based questions.
 
+## Simple study flow
+
+The main screen offers two choices: **Quizzes** and **Exam quizzes**. Practice has the two original sets plus a 10-question mixed quiz, with one question at a time and instant explanations. Exam quizzes offer either 20 questions in 25 minutes or a next-generation practice with 20 questions and two coding tasks in 30 minutes. Results include answer review and a retry option for missed questions. Existing saved study data is retained. Source material and standalone labs remain available at their existing deep links.
+
 ## Included
 
 - 66 imported HTML questions: multiple choice, multiple response, true/false, and code completion.
 - 24 original coding labs with 86 executable checks, hints, and reference solutions.
 - A 30-minute mixed practice session: 10 questions, 2 labs, then 10 questions. This is a custom study format, not an exact exam simulator or official score prediction.
 - A searchable library of 310 Python exercise images extracted from the two supplied ZIPs; both supplied PDFs and the 70-page PDF inside the worksheet ZIP remain available as references. Other subject folders were intentionally excluded.
-- Topic filters, bookmarks, mistake review, partial selection scores, lab drafts, and local progress with JSON export/import.
+- One-question practice, explanations, missed-question retries, partial selection scores, saved quiz sessions, lab drafts, and local progress with JSON export/import.
 - A Python runtime using Pyodide in a module Web Worker, a stop button, and a 15-second execution limit. Files are temporary and reset each run. Initial runtime loading requires internet access.
 
 ## Run locally
