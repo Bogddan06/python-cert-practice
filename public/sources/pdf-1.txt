@@ -1,0 +1,867 @@
+
+--- Page 1 ---
+11/2/26, 6:43 PM python
+Quiz ·
+Lilian Sw · 40 questions · python | Quiz
+5.0 (1 rating) · Updated 6 Jul 2
+0
+26
+python
+python
+Question 1 of 40 1
+For each statement about try statements, select For each statement about try statements, select
+True or False. True or False.
+Select one or more of the following:
+A try statement can have a finally clause and an
+except clause.
+A try statement can have one or more finally
+clauses.
+A try statement can have one or more except
+clauses.
+A try statement can have a finally clause without
+an except clause.
+This quiz has question types that open in the usual player.
+Questions in this quiz (40)
+https://www.goconqr.com/quiz/41024632/python 1/24
+--- Page 2 ---
+11/2/26, 6:43 PM python | Quiz
+1 For each statement about try statements, select True or False.
+AA try statement can have one or more except clauses.
+B
+A try statement can have a finally clause without an except clause.
+CA try statement can have a finally clause and an except clause.
+D
+A try statement can have one or more finally clauses.
+2 You are writing a Python program to ask the user to enter a number and determine if the number is
+1 digit 2 digits, or
+more than 2 digits long. You need to write the program.
+How should you complete the code? To answer, select the appropriate code segments in the answer
+area.
+num = int(input("Enter a number with
+1 or 2 digits: "))
+digits = 0;
+[blank_start][1][blank_end]
+digits = "1"
+[blank_start][2][blank_end]
+digits = 2
+[blank_start][3][blank_end]
+digits = ">2"
+print(digits + " digits.")
+if num >-10 and num<
+10:
+B if num > -100 and num <
+C if num > -100 and num <
+D elif num > -100 and num <
+E if num > -10 and num <
+10:
+F elif num > -10 and num <
+100:
+100:
+100:
+10:
+G else:
+H elif:
+A
+https://www.goconqr.com/quiz/41024632/python 2/24
+--- Page 3 ---
+11/2/26, 6:43 PM python | Quiz
+3 You are creating a Python program that compares numbers. You write the following
+code. Line numbers are included for reference only.
+01 num
+1 = eval(input ("Please enterthe first number: "))
+02 num2 = eval(input ("Please enter the second number: "))
+03
+ifnum
+1 == num2:
+04 print("The two numbers are equal.")
+05
+if num
+1
+<= num2:
+06 print("Number 1
+is less than number 2.")
+07 if num
+1> num2:
+08 print("Number1
+is greater than number 2.")
+09 if num2 = num
+1:
+10 print("The two numbers are thesame.")
+You need to ensure that the comparisons are accurate. For each statement, select
+True or False. Note: You will receive partial credit for each correct selection.
+The print statement at line 04 will print only if the two numbers are equal in value.
+B The print statement at line 06 will print only if num
+1
+is less than num2.
+C The print statement at line 08 will print only if num
+1
+is greater than num2.
+D The statement at line 09 is an invalid comparison.
+A
+4 You create the following Python function to calculate the power of a number. Line
+numbers are included for reference only.
+01 # The calc_power function calculates exponents
+02 # x is the base
+03 # y is the exponent
+04 # The value of x raised to the y power is returned
+05 def calc_power(x, y):
+06 comment = "# Return the value"
+07 return x ** y # raise x to the y power
+For each statement, select True or False.
+Python will not check the syntax of lines 01 through
+0
+4.
+B The pound sign (
+#) is optional for lines 0
+2 and 03.
+C The string in line 06 will be interpreted as a comment.
+D Line 07 contains an inline comment.
+A
+https://www.goconqr.com/quiz/41024632/python 3/24
+--- Page 4 ---
+11/2/26, 6:43 PM python | Quiz
+5 You are writing a function that increments the player score in a game.
+The function has the following requirements:
+- If no value is specified for points, then points start at one.
+- If bonus is True, then points must be doubled.
+You write the following code. Line numbers are included for reference only.
+01 def increment_score(score, bonus, points):
+02 if bonus == True:
+03 points = points *
+2
+04 score = score + points
+05 return score
+06 points = 5
+07 score = 10
+08 new_score = increment_score(score, True, points)
+For each statement, select True or False.
+Note: You will receive partial credit for each correct selection.
+To meet the requirements, you must change line 01 to: def increment_score(score, bonus, points = 1).
+B If you do not change line 01 and the function is called with only two parameters, an error occurs.
+C Line 03 will also modify the value of the variable points declared at line 06.
+A
+6A friend asks you to refactor and document the following Python code:
+value1 = 9
+value2 = 4
+answer = (value1
+% value2
+* 10) // 2.0 ** 3.0
++ value2
+You run the code.
+What is the result?
+The value 5.0 is displayed.
+B
+A syntax error occurs.
+C The value 1
+29 is displayed.
+D The value 5.667 is displayed.
+A
+https://www.goconqr.com/quiz/41024632/python 4/24
+--- Page 5 ---
+11/2/26, 6:43 PM python | Quiz
+7 The following function calculates the value of an expression that uses an exponent.
+Line numbers are included for reference only.
+01 def calc_power(a, b):
+02 return a **
+b
+03
+base = input("Enter the number for the base: ")
+04 exponent = input("Enter the number for the exponent: ")
+05 result = calc_power(base, exponent)
+06 print("The result is " + result)
+For each statement, select True or False.
+The code will generate an error in line 03 and line 0
+4.
+B The code will generate an error in line 0
+2 and line 05.
+C The code will correctly output data to the console.
+A
+8 The Script.py file contains the following code:
+import sys
+print(sys.argv[2])
+You run the following command:
+python Script.py Cheese Bacon Bread
+What is the output of the command?
+Bread
+B Script.py
+C Cheese
+D Bacon
+A
+9 Review the following code:
+x = "oranges"
+y = "apples"
+z = "bananas"
+data = "{
+1} and {0}and {2}"
+print(data.format(z, y, x))
+What is the output of the print statement?
+A oranges and apples and bananas
+B apples and bananas and oranges
+C bananas and oranges and apples
+D apples and oranges and bananas
+https://www.goconqr.com/quiz/41024632/python 5/24
+--- Page 6 ---
+11/2/26, 6:43 PM 10 What does the following statement do?\n\ndata = input()
+AAllows a user to enter text in the console
+B Creates an HTML input element
+CDisplays all input peripheral devices on the computer
+D Displays a message box that allows user input
+python | Quiz
+11 You develop a Python application for your company.
+You want to add notes to your code so other team members will understand it.
+What should you do?
+Place the notes after # on any line.
+B Place the notes after // on any line.
+C Place the notes within /
+* and *
+/ in any code segment.
+D Place the notes within in any code segment.
+A
+12 For each statement about the following function, select True or False.
+def
+grosspay(hours=40, rate=2
+5, pieces=0, piecerate=0, salary=0):
+overtime=0
+if pieces > 0
+return pieces * piecerate
+if salary > 0:
+pass
+if hours > 40:
+overtime = (hours-4
+0) *
+(
+1.5 * rate)
+return overtime + (40 * rate)
+else:
+return hours * rate
+Note: You will receive partial credit for each correct selection.
+AA function call of grosspay() will create a syntax error.
+B
+A function call of grosspay(salary=50000) will return nothing.
+CA function call of grosspay(pieces=500, piecerate=4) will return a result of 2
+000.
+https://www.goconqr.com/quiz/41024632/python 6/24
+--- Page 7 ---
+11/2/26, 6:43 PM python | Quiz
+13 You are building a Python program that displays all prime numbers from 2 to 100. (A
+prime number is any number that is divisible only by itself and 1.)
+Complete the code by moving the appropriate code segments from the list on the left to
+the correct locations on the right.
+[blank_start]1[blank_end]
+for i in range(2, p):
+if p % i == 0:
+is_prime = False
+[blank_start]2[blank_end]
+if is_prime == True:
+print(p)
+[blank_start]3[blank_end]
+[blank_start]4[blank_end]
+[blank_start]5[blank_end]
+p =2 while p <= 100: is_prime = True
+B for i in range(2, p):if p %i == 0: false
+C for i in range (2, p): if p/i == 0: fals
+D break
+E p = p +
+1
+F p = 2 is_prime = True while p
+G continue
+A
+14 You are creating an eCommerce script that accepts input from the user and outputs the
+data in a comma-delimited format.
+You write the following code to accept input:
+item = input("Enter the item name:")
+sales = int(input("Enter the quantity: "))
+The output must meet the following requirements:
+- Enclose strings in double quotes.
+- Do not enclose numbers in quotes or other characters.
+- Separate items by commas.
+You need to complete the code to meet the requirements.
+Which two code segments could you use?
+Each correct answer presents a complete solution.
+(Choose 2.)
+print(item +',' + sales)
+B print("{0},{
+1}".format(item, sales))
+C print('{0}",{
+1}'.format(item, sales))
+D print(' + item + "",", ,, sales)
+A
+https://www.goconqr.com/quiz/41024632/python 7/24
+--- Page 8 ---
+11/2/26, 6:43 PM python | Quiz
+15 Review the following code segment:
+f= open("python.txt", "a")
+f.write("This is a line of text.")
+f.close()
+For each statement about the code segment, select True or False.
+AA file named python.txt is created if it does not exist.
+B The data in the file will be overwritten.
+C Other code can open the file after this code runs.
+16A bicycle company is creating a program that allows customers to log the number of miles
+biked.
+The program will send messages based on how many miles the customer logs.
+You write the following Python code. Line numbers are included for reference only.
+01
+02 name = input("What is your name?")
+03 return name
+04
+05 calories = miles * calories_per_mile
+06 return calories
+07 distance = int(input("How many miles did you bike this week? "))
+08 burn rate = 50
+09 biker = get_name()
+10 calories_burned = calc_calories(distance, burn_rate)
+11 print(biker, ", you burned about ", calories_burned, " calories.")
+You need to define the two required functions.
+Which two code segments should you use for line 01 and line 0
+?
+4
+Each correct answer presents part of the solution. (Choose 2.)
+01 def get_name():
+B
+01 def get_name(biker):
+C01 def get_name(name):
+D 04 def calc_calories():
+E 04 def calc_calories(miles, burn_rate):
+F 04 def calc_calories(miles, calories_per_mile):
+A
+https://www.goconqr.com/quiz/41024632/python 8/24
+--- Page 9 ---
+11/2/26, 6:43 PM python | Quiz
+17 You work on a team that is developing a game.
+You need to write code that generates a random number that meets the following
+requirements:
+- The number is a multiple of 5.
+- The lowest number is 5.
+- The highest number is 100.
+Which two code segments will meet the requirements?
+Each correct answer presents a
+complete solution. (Choose 2.)
+from random import randrange print(randrange(
+0, 100, 5))
+B from random import randint print(randint(
+0, 2
+0) * 5)
+C from random import randint print(randint(
+1, 2
+0) * 5)
+D from random import randrange print(randrange(
+5, 105, 5))
+A
+https://www.goconqr.com/quiz/41024632/python 9/24
+--- Page 10 ---
+11/2/26, 6:43 PM 18
+python | Quiz
+You are creating a function to calculate admission fees by using Python. Admission fees are
+calculated based on the
+following rules:
+. Anyone under age 5 = free admission
+. Anyone age 5 or older who is in school = 10 USD
+. Anyone age 5 to 17 who is not in school = 2
+0 USD
+. Anyone older than age 17 who is not in school = 50 USD
+How should you complete the code? To answer, select the appropriate code segments in the answer
+area.
+def admission_fee(age, school):
+rate = 0
+[blank_start][1][blank_end]
+rate = 10
+[blank_start][2][blank_end]
+[blank_start][3][blank_end]
+rate = 2
+0
+else:
+rate = 50
+return rate
+if age >= 5 and school == True:
+B if age >= 5 and age <= 17:
+C if age >= 5 and school == False:
+D elif age >= 5 and school == False:
+E else age >= 5 and school == False:
+F elif age >= 5 and school == True:
+G if age >= 5 and school == True:
+H if age >= 5 and school == False:
+I if age <= 17:
+A
+https://www.goconqr.com/quiz/41024632/python 10/24
+--- Page 11 ---
+11/2/26, 6:43 PM python | Quiz
+19 You develop a Python application for your company. How should you complete the code so that the
+print statements are
+accurate? To answer, select the appropriate code segments in the answer area.
+numList = [1,2,3,4,5]
+alphaList = ["a","b","c","d","e"]
+[blank_start][1][blank_end]
+print("The values in numList are equal to alphaList")
+[blank_start][2][blank_end]
+print("The values in numList are not equal to alphaList")
+if numList == alphaList:
+B if numList == alphaList
+C else:
+D else
+E if numList == alphaList:
+F if numList == alphaList
+G else:
+H else
+A
+https://www.goconqr.com/quiz/41024632/python 11/24
+--- Page 12 ---
+11/2/26, 6:43 PM python | Quiz
+20A coworker wrote a program that inputs names into a database. Unfortunately, the program
+reversed the letters in each name.
+You need to write a Python function that outputs the characters in a name in the correct
+order.
+Complete the code by selecting the code segment from each drop-down list.
+# Function reverses characters in a string.
+# returns new string in reversed order.
+def reverse_name(backward_name):
+forward_name = ""
+length = [blank_start]1[blank_end]
+while length >= 0:
+forward_name += [blank_start]2[blank_end]
+length = length - 1
+return forward name
+print(reverse_name("nohtyp"))
+backwards_name:
+B len(backwards_name) - 1
+C range(0, len(backwards_name),-1)
+D range(len(backwards_name)-1,-1,-1):
+E backwards_name[index-1]
+F backwards_name[len(forward_name)-1]
+G backwards_name[len(backward_name)- len(f
+H backward_name[length]
+A
+https://www.goconqr.com/quiz/41024632/python 12/24
+--- Page 13 ---
+11/2/26, 6:43 PM 21 Review the following code segment:
+product = 2
+n =5
+while (n != 0):
+product *= n
+print (product)
+n -= 1
+if n == 3:
+break
+python | Quiz
+How many lines of output does the code print?
+1
+A
+B
+2
+C3
+D
+4
+22 You write the following code to determine a student's final grade based on their current
+grade (grade) and rank (rank):
+grade = 76
+rank = 3
+if grade > 80 and rank >= 3:
+grade += 10
+elif grade >= 70 and rank > 3:
+grade += 5
+else:
+grade -= 5
+A
+print(grade)
+What value will print?
+71
+B 76
+C 81
+D 86
+https://www.goconqr.com/quiz/41024632/python 13/24
+--- Page 14 ---
+11/2/26, 6:43 PM python | Quiz
+23 You write the following function to read a data file and print each line of the file.
+Line numbers are included for reference only.
+01 def read_file(file):
+02 line = None
+03
+if os.path.isfile(file):
+04 data = open(file,'r')
+05 for line in data:
+06 print(line)
+When you run the program, you receive an error on line 03.
+What is causing the error?
+You need to import the os library.
+B The isfile method does not accept one parameter.
+C The isfile method does not exist in the path object.
+D The path method does not exist in the os object.
+A
+https://www.goconqr.com/quiz/41024632/python 14/24
+--- Page 15 ---
+11/2/26, 6:43 PM python | Quiz
+24 You are designing a decision structure to convert student's numeric grades ('grade') to
+letter grades ('letter_grade').
+The program must assign letter grades as specified in the following table:
+Percentage range Letter grade
+90 through
+100 A
+80 through 89 B
+70 through 79 C
+65 through 69 D
+0 through 64 F
+For example, if the user enters a 90, the output should be '"Your letter grade is A".
+Likewise, if a user enters an 89, the output should be '"Your letter grade is B".
+Complete the code by selecting the correct code segment from each drop-down list.
+** 'python
+#
+Letter Grade Converter
+grade = int(input("Enter a numeric grade"))
+[blank_start]1[blank_end] # dropdown 1
+letter_grade = 'A'
+[blank_start]2[blank_end] # dropdown 2
+letter_grade = 'B'
+[blank_start]3[blank_end] # dropdown 3
+letter_grade = 'C'
+[blank_start]4[blank_end] # dropdown 4
+letter_grade = 'D'
+else:
+letter_grade = 'F'
+if grade >= 90:
+B if grade > 80:
+C if grade > 70:
+D if grade > 65:
+E if grade >= 80 and grade <90:
+F if grade >= 80:
+G if grade >= 70:
+H if grade >= 65:
+I if grade >= 70 and grade < 80:
+J elif grade > 90:
+K elif grade > 70:
+L elif grade > 65:
+M if grade >= 65 and grade < 70:
+N elif grade >= 80:
+A
+https://www.goconqr.com/quiz/41024632/python 15/24
+--- Page 16 ---
+11/2/26, 6:43 PM O elif grade >= 70:
+P elif grade >= 65:
+python | Quiz
+25 A
+You are developing a Python application for your company.
+You need to accept input from the user and print that information to the user's screen.
+You start with the following code. Line numbers are included for reference only:
+01 print("What is your name?")
+02
+03 print(name)
+Which code should you write at line 02?
+input(name)
+B name = input
+C name = input()
+D input("name")
+https://www.goconqr.com/quiz/41024632/python 16/24
+--- Page 17 ---
+11/2/26, 6:43 PM python | Quiz
+26 Students are attending an activity night at their school. The following function tells
+students where to go for their activities:
+def roomAssignment(student, year):
+"""Assign rooms to students"*"
+if year == 1:
+print(f"In{student.title()}, please report to room
+115")
+elif year == 2:
+print(f"In{student.title()}, please report to room 2
+10")
+elif year == 3
+print(f"In{student.title()}, please report to room
+3
+2
+0")
+elif year == 4
+print(f"In{student.title()}, please report to room 4
+05")
+elif year == 5:
+print(f"In{student.title()}, please report to room
+515")
+else:
+print(f"In{student.title()}, please report to room 62
+5")
+Which two code segments can be used to call the function? (Choose 2.)
+Each correct code segment is a complete solution.
+A name = input('What is your name?')
+grade = 0
+while grade not in (
+1, 2, 3, 4, 5, 6):
+grade = int(input('What grade are you in (
+1-6)?'))
+roomAssignment(name, year=grade)
+B name = input('What is your name?')
+grade = 0
+while grade not in (
+1, 2, 3, 4, 5, 6):
+grade = int(input('What grade are you in (
+1-6)?'))
+roomAssignment(student, year)
+C roomAssignment('Sherlock Sassafrass', 4)
+D roomAssignment(year=6, name='Minnie George')
+27 You are developing a Python application for your school. The application must read and
+write data to a text file.
+If the file does not exist, the application must create it. If the file contains
+content, the application must delete the content.
+Which code segment should you use?
+A open("local_data", "w")
+B open("local_data", "r")
+C open("local_data", "w+")
+D open("local_data", "r+")
+https://www.goconqr.com/quiz/41024632/python 17/24
+--- Page 18 ---
+11/2/26, 6:43 PM python | Quiz
+28A bank must generate a report that shows the average balance for all customers each day.
+The report must truncate the decimal portion of the balance.
+Which two code segments achieve the goal?
+Each correct answer presents a complete
+solution. (Choose 2.)
+average_balance = float(total_deposits // number_of_customers)
+B average_balance = total_deposits ** number_of_customers
+C average_balance = int(total_deposits / number_of_customers)
+D average_balance = total_deposits // number_of_customers
+A
+29 You are creating a function that manipulates a number passed into the function as a
+float value. The function must perform the following tasks: . Take the absolute
+value of the float. . Remove any decimal points after the integer. Which
+two math functions should you use?
+Each correct answer is part of the solution. (Choose
+2.)
+A
+math.floor(x)
+B math.fabs(x)
+C math.fmod(x)
+D math.frexp(x)
+30 You develop a Python application for your company. A list named employees
+contains 200 employee names, the last five being company management. You need to slice
+the list to display all employees excluding management. Which two code segments should
+you use?
+Each correct answer presents a complete solution. (Choose 2.)
+employees[1 :- 5]
+B employees[0 :- 5]
+C employees[1 :- 4]
+D employees[0 :- 4]
+E employees[ :- 5]
+A
+https://www.goconqr.com/quiz/41024632/python 18/24
+--- Page 19 ---
+11/2/26, 6:43 PM python | Quiz
+31 The following function calculates the value of an expression that uses an exponent. Line
+numbers are included for reference only.
+01 def calc_power(a, b):
+02 return a **
+b
+03
+base = input("Enter the number for the base: ")
+04 exponent = input("Enter the number for the exponent: ")
+05 result = calc_power(base, exponent)
+06 print("The result is " + result)
+For each statement, select True or False.
+The code will generate an error in line 03 and line 0
+4.(F)
+B The code will generate an error in line 0
+2 and line 05.
+C The code will correctly output data to the console.(F)
+A
+32 You are developing a Python application for your company. You write the following code:
+numList = [1, 2, 3, 4, 5]
+alphaList = ["a", "b", "c", "d","e"]
+print(numList is alphaList)
+print(numList == alphaList)
+numList = alphaList
+print(numList is alphaList)
+print(numList == alphaList)
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+What is displayed after the first print? [blank_start]False[blank_end]
+What is displayed after the second print? [blank_start]False[blank_end]
+What is displayed after the third print? [blank_start]True[blank_end]
+What is displayed after the fourth print? [blank_start]True[blank_end]
+False
+B True
+C False
+D True
+E False
+F True
+G False
+H True
+A
+https://www.goconqr.com/quiz/41024632/python 19/24
+--- Page 20 ---
+11/2/26, 6:43 PM 33 The Script.py file contains the following code:
+import sys
+print(sys.argv[2])
+You run the following command:
+python Script.py Cheese Bacon Bread
+What is the output of the command?
+Bacon
+B Script.py
+CBread
+D Cheese
+python | Quiz
+A
+34 Review the following code segment:
+f= open("python.txt", "a")
+f.write("This is a line of text.")
+f.close()
+For each statement about the code segment, select True or False.
+A file named python.txt is created if it does not exist.
+[blank_start]1[blank_end]
+The data in the file will be overwritten.
+[blank_start]2[blank_end]
+Other code can open the file after this code runs.
+[blank_start]3[blank_end]
+Yes
+B No
+C Yes
+D No
+E Yes
+F No
+A
+https://www.goconqr.com/quiz/41024632/python 20/24
+--- Page 21 ---
+11/2/26, 6:43 PM python | Quiz
+35 You are writing a function that increments the player score in a game.
+The function has the following requirements:
+· If no value is specified for points, then points start at one.
+. If bonus is True, then points must be doubled.
+You write the following code. Line numbers are included for reference only:
+01 def increment_score(score, bonus, points):
+02 if bonus == True:
+03 points = points *
+2
+04 score = score + points
+05 return score
+06 points = 5
+07 score = 10
+08 new_score = increment_score(score, True, points)
+For each statement, select True or False.
+To meet the requirements, you must change line 01 to: def increment_score(score, bonus, points =1):
+[blank_start]1[blank_end]
+If you do not change line 01 and the function is called with only two parameters, an error occurs.
+[blank_start]2[blank_end]
+Line 03 will also modify the value of the variable points declared at line 06.
+[blank_start]3[blank_end]
+Yes
+B No
+C Yes
+D No
+E Yes
+F No
+A
+https://www.goconqr.com/quiz/41024632/python 21/24
+--- Page 22 ---
+11/2/26, 6:43 PM python | Quiz
+36 Review the following program. Line numbers are for reference only:
+def petStore(category, species, breed = "none"):
+print(f"InYou have selected an animal from the {category} category.")
+if breed == "none":
+print(f"The {category} you selected is a {species}")
+else:
+print(f"The {category} you selected is a {species} {breed}")
+category = input("Enter dog, cat, or bird:")
+species = input("Enter species:")
+if category == "dog" or category == "cat":
+breed = input("Enter breed:")
+petStore(category, species, breed)
+else:
+petStore(category, species)
+petStore(breed="Maltese", species="Canine", category="dog")
+petStore("bird", species="Scarlet Macaw")
+For each statement about the program, select True or False.
+The function returns a value.
+[blank_start]1[blank_end]
+The function calls at lines 1
+2 and 15 are valid.
+[blank_start]2[blank_end]
+The function calls at lines 1
+4 and 16 will result in an error.
+[blank_start]3[blank_end]
+Yes
+B No
+C Yes
+D No
+E Yes
+F No
+A
+37 A
+You are writing code to generate a random integer with a minimum value of 5 and a maximnum
+value of 11.
+Which two functions should you use?
+Each correct answer presents a complete solution. (Choose 2.)
+random.randint(
+5, 1
+2)
+B random.randrange(
+5, 11, 1)
+C random.randint(
+5, 11)
+D random.randrange(
+5, 1
+2, 1)
+https://www.goconqr.com/quiz/41024632/python 22/24
+--- Page 23 ---
+11/2/26, 6:43 PM python | Quiz
+38A bank is migrating their legacy bank transaction code to Python.
+The bank hires you to document the migrated code.
+Which documentation syntax is correct?
+def get_balance():In # Returns the current balance of the bank account\n return balance
+B // Returns the current balance of the bank account\ndef get_balance():In return balance
+C def get_balance():In /
+* Returns the current balance of the bank account *
+An return balance
+D Returns the current balance of the bank accountIndef get_balance():In return balance
+A
+39 You are creating an eCommerce script that accepts input from the user and outputs the data in a
+comma-delimited format.
+You write the following code to accept input:
+item = input("Enter the item name: ")
+sales = int(input("Enter the quantity: "))
+The output must meet the following requirements:
+· Enclose strings in double quotes.
+· Do not enclose numbers in quotes or other onaracters.
+· Separate items by commas.
+Which two code segments could you use?
+Each correct answer presents a complete solution.
+(Choose 2.)
+print(item +',' + sales)
+B print("0",{
+1}'.format(item, sales))
+C print(" + item +"",',', sales)
+D print("{0}",{
+1}'.format(item, sales))
+A
+https://www.goconqr.com/quiz/41024632/python 23/24
+--- Page 24 ---
+11/2/26, 6:43 PM python | Quiz
+40 You are creating a program that accepts user input. The program must cast the input into
+an integer, and properly handle the error if it cannot do so.
+while True:
+[blank_start]try[blank_end]
+x = int(input("Please enter a number: "))
+[blank_start]break[blank_end]
+except: ValueError:
+print("Not a valid number. Try again ... ")
+try:
+B else:
+C except:
+D raise:
+E finally:
+F try:
+G else:
+H except:
+I raise:
+J finally:
+A
+Information
+Description Quiz on python, created by Lilian Sw on 15
+/
+06/2
+0
+26.
+Author Lilian Sw
+Language English
+Views 891
+History Created on 15 Jun 2026 · updated on 6 Jul 2
+0
+26
+5.0 out of 5 · 1 rating
+Rating
+Rate this quiz
+Report this quiz
+https://www.goconqr.com/quiz/41024632/python 24/24

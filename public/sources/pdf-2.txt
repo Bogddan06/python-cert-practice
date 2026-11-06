@@ -1,0 +1,859 @@
+
+--- Page 1 ---
+11/2/26, 6:43 PM Python 2
+Quiz ·
+Lilian Sw · 26 questions · Updated 16 Jul 2
+0
+Python 2 | Quiz
+26
+Python 2
+Python 2
+Question 1 of 26 1
+Select from the dropdown lists to complete the text.
+A company needs help updating their file
+A company needs help updating their file
+system. You must create a simple
+system. You must create a simple
+file-manipulation program that performs the
+file-manipulation program that performs the
+following actions:
+following actions:
+Creates a file using the specified name.
+Creates a file using the specified name.
+Appends the phrase "End of listing" to the file.
+Appends the phrase "End of listing" to the file.
+You need to complete the code to meet the You need to complete the code to meet the
+requirements.
+requirements.
+Complete the code by selecting the correct
+Complete the code by selecting the correct
+code segment from each drop-down list.
+code segment from each drop-down list.
+import os import os
+file =
+file = ( open("myFile.txt","a"), file.write )
+( open("myFile.txt"
+,
+"a"), file.write )
+( open("myFile.txt","a"), file.write )
+( open("myFile.txt"
+,
+"a"), file.write ) ("End of ("End of
+listing") listing")
+file close()
+fileclose()
+This quiz has question types that open in the usual player.
+Questions in this quiz (26)
+https://www.goconqr.com/quiz/41038548/python-2 1/25
+--- Page 2 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+1A company needs help updating their file system. You must create a simple
+file-manipulation program that performs the following actions:
+Creates a file using the specified name.
+Appends the phrase "End of listing" to the file.
+You need to complete the code to meet the requirements.
+Complete the code by selecting the correct code segment from each drop-down list.
+import os
+file = [blank_start]1[blank_end]
+[blank_start]2[blank_end] ("End of listing")
+file.close()
+A open("myFile.txt","a")
+B file.write
+C open("myFile.txt","a")
+D file.write
+https://www.goconqr.com/quiz/41038548/python-2 2/25
+--- Page 3 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+2 You are writing a program to randomly assign rooms (room_number) and team-building
+groups (group) for a company retreat.
+Complete the code by selecting the correct code segment from each drop-down list.
+import random
+roomsAssigned=[1]
+room_number=1
+groupList=["Ropes","Rafting","Obstacle","Wellness"]
+count=0
+print("Welcome to CompanyPro's Team-Building Weekend!")
+name=input("Please enter your name (q to quit)? ")
+while name.lower() != 'q' and count <
+50:
+while room_number in roomsAssigned:
+[blank_start]1[blank_end]
+print(f"{name}, your room number is {room_number}")
+roomsAssigned.append(room_number)
+[blank_start]2[blank_end]
+print(f"You will meet with the {group} Group this afternoon.")
+count+=1
+name=input("Please enter your name (q to quit)? ")
+room_number=random.randint(
+1,50)
+B room_number=random.randint(
+50)
+C room_number=random.range(
+1,50)
+D room_number=random.choice(
+1,50)
+E group = random.chioce(groupList)
+F group = random.randint(groupList)
+G group = random.shuffle(groupList)
+H group = groupList(random.randint(0,3))
+A
+https://www.goconqr.com/quiz/41038548/python-2 3/25
+--- Page 4 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+3A company needs help updating their file system.
+You must create a simple file-manipulation program that performs the following actions:
+- Checks to see whether a file exists.
+- If the file exists, displays its contents.
+Complete the code by selecting the correct code segment from each drop-down list.
+import os
+if [blank_start]1[blank_end]
+file = open('myFile.txt')
+[blank_start]2[blank_end]
+file.close()
+A os.exist("myFile.txt"):
+B os.path("myFile.txt"):
+C os.file.exists("myFile.txt"):
+D os.find("myFile.txt"):
+E print(file.read())
+F print(read(file))
+G print(file.open())
+H file.write()
+4 You need to identify the results of performing various slicing operations on the
+following sequence structure:
+alph = "abcdefghijklmnopqrstuvwxyz"
+Move the appropriate results from the list on the left to the correct slicing operations
+on the right.
+You may use each result once, more than once, or not at all.
+alph[3:6] [blank_start]1[blank_end]
+alph[:6] [blank_start]2[blank_end]
+def
+B cde
+C cdef
+D defg
+E abcde
+F abcdef
+A
+https://www.goconqr.com/quiz/41038548/python-2 4/25
+--- Page 5 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+5 You find errors while evaluating the following code. Line numbers are included for
+reference only.
+01 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+02 index = 0
+03 while(index <
+0)
+04 print(numbers[index])
+05
+06 if numbers(index) = 6
+07 break
+08 else:
+09 index += 1
+You need to correct the code at line 03 and line 06.
+Evaluate the code and answer the questions by selecting the correct option from each
+drop-down list.
+Which code segment should use at line 03
+? [blank_start]1[blank_end]
+Which code segment should use at line 06? [blank_start]2[blank_end]
+while (index <
+10):
+B while (index <= 10):
+C while index <
+10
+D until (index == 10):
+E if numbers[index] == 6:
+F if numbers[index] = 6:
+G if numbers(index) == 6:
+H if numbers[index] == 6
+A
+https://www.goconqr.com/quiz/41038548/python-2 5/25
+--- Page 6 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+6A game development company needs a way to find the number of words in a list that
+contain a specific letter.
+Complete the code by selecting the correct code segment from each drop-down list.
+Note: You will receive partial credit for each correct selection.
+# Function accepts list of words and letter to search for.
+# Returns count of the number of words that contain that letter.
+def count_letter(letter, word_list):
+count = 0
+for [blank_start]1[blank_end]
+if [blank_start]2[blank_end]
+count += 1
+return count
+# word_list is populated by the readWords() function. Code not shown.
+word_list = readWords()
+letter = input("Which letter would you like to count")
+etter count = count letter(letter, word_list)
+print("There are: ", letter_count, " words that contain ", letter)
+word in word_list:
+B word_list in word:
+C word in range(word_list):
+D word in word_list
+E letter in word:
+F word in letter:
+G letter == word:
+H letter.find(word):
+A
+https://www.goconqr.com/quiz/41038548/python-2 6/25
+--- Page 7 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+7 You are creating a Python program that will let a user guess a number from
+1 to 10.
+The user is allowed up to three guesses. If the user guesses the correct number, the
+program must stop asking for guesses. Complete the code by moving the appropriate code
+segments from the list on the left to the correct locations on the right. You may use
+each code segment once, more than once, or not at all.
+from random import randint
+target= randint(
+1,10)
+chance = 1
+print("Guess an integer from
+1 to 10. You will have 3chances.")
+[blank_start]1[blank_end]
+guess = int(input("Guess an integer: "))
+if guess > target:
+print("Guess is too high")
+elif guess < target:
+print("Guess is too low" )
+else:
+print("Guess is just right!" )
+[blank_start]2[blank_end]
+[blank_start]3[blank_end]
+while chance <=3:
+B while chance <
+3
+C while chance <
+D pass
+3:
+E chance = 2
+F break
+G chance +=1
+A
+https://www.goconqr.com/quiz/41038548/python-2 7/25
+--- Page 8 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+8A company asks you to debug some code that is causing problems with their payroll. They
+ask you to find the source of the payroll errors.
+The following variables have been declared:
+employee_pay =[15000, 1
+20000, 35000, 4
+5000]
+count = 0
+sum = 0
+There are two errors in the following code:
+for index in range(0, len(employee_pay)-1):
+count += 1
+sum += employee_pay[index]
+average = sum/count
+print("The total payroll is:", sum)
+print("The average salary is:", average)
+Which code should you use to fix the errors?
+To answer, select the appropriate code segments in the answer area.
+for index in range [blank_start]1[blank_end]
+count += 1
+sum += employee_pay[index]
+average = [blank_start]2[blank_end]
+print("The total payroll is:", sum)
+print("The average salary is:",average)
+A
+(len(employee_pay)):
+B (0, len(employee_pay) - 1):
+C (len(employee_pay) +
+1):
+D (employee_pay):
+E sum/count
+F count/sum
+G sum/len(range)
+H employee_pay/count
+https://www.goconqr.com/quiz/41038548/python-2 8/25
+--- Page 9 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+9 You are creating a program to calculate the rental fee for DVDs. The fee structure is as
+follows:
+. The default cost ('cost_per_night') is $
+1.59 per night
+. If the customer returns the DVD after 8 PM, they are charged for an extra night.
+. Sunday DVD rentals receive a 30% discount for the full length of the rental.
+. Thursday DVD rentals receive a 50% discount for the full length of the rental.
+Complete the code to meet the requirements by selecting the correct code segment from
+each dropdown list.
+#DVD Rental Calculator
+ontime = input("Was the video returned before 8 PM? Y or N").lower()
+days_rented = int(input("How many days was the video rented?"))
+weekday = input("What day was the video rented?").capitalize()
+cost_per_night = 1.59
+if on time [blank_start]1[blank_end]
+days_rented +=1
+if weekday [blank_start]2[blank_end]
+total =(days_rented * cost_per_night) * 0.7
+elif weekday [blank_start]3[blank_end]
+total = (days_rented * cost_per_night) * 0.5
+else:
+total = days rented * cost per night
+print("Cost of the DVD rental is : $", total)
+== "n":
+B = "n":
+C == "N":
+D is "n"
+E == "Sunday":
+F == "sunday":
+G in "Sunday":
+H = "Sunday":
+I == "Thursday"
+J == "thursday"
+K == "Thursday":
+L != "Thursday"
+A
+https://www.goconqr.com/quiz/41038548/python-2 9/25
+--- Page 10 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+10 You need to write code that performs the following tasks:
+. Call the process() function.
+. If the process() function throws an error, call the logError() function.
+. Always call the displayResult() function after calling the process() function.
+Complete the code by moving the appropriate code segments from the list on the left to
+the correct locations on the right.
+[blank_start]1[blank_end] process()
+[blank_start]2[blank_end] logError
+[blank_start]3[blank_end] displayResult()
+try:
+B assert:
+C raise:
+D except:
+E finally:
+A
+https://www.goconqr.com/quiz/41038548/python-2 10/25
+--- Page 11 ---
+11/2/26, 6:43 PM 11 Python 2 | Quiz
+You are writing code to create an E shape from asterisks. You need to print five lines
+of code
+with four asterisks each on the first, third, and fifth lines and one asterisk each on
+the second and fourth lines, as shown.
+****
+*
+****
+*
+**.
+A
+Complete the code by selecting the correct numbers in the boxes. Enter each number as an
+integer.
+result str=""
+for row in range(
+1, [blank_start]1[blank_end])
+for column in range(
+1,[blank_start]5[blank_end])
+if (row == 1 or row == 3 or row == 5):
+result str = result str +"*"
+elif column == 1:
+result_str = result str+"*"
+result str = result str +"in"
+print(result_str)
+6
+5
+B
+C0
+D 7
+5
+E
+F 4
+G1
+H 6
+https://www.goconqr.com/quiz/41038548/python-2 11/25
+--- Page 12 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+12 You are writing a Python program that evaluates an arithmetic formula.
+The formula is described as
+"*
+b equals a multiplied by negative one, then raised to the second power ** ,
+where a' is the value that will be input and 'b' is the result.
+You create the following code segment. Line numbers are included for reference only:
+01 a = int(input("Enter a number for the equation: "))
+02 b= [blank_start]1[blank_end] [blank_start]2[blank_end] [blank_start]3[blank_end]
+[blank_start]4[blank_end] [blank_start]5[blank_end]
+Complete the code on line 02 by dragging the appropriate code segments into the correct
+locations.
+You may use each code segment once, more than once, or not at all.
+(
+**
+A
+B
+C2
+D -
+E a
+F )
+G**
+2
+https://www.goconqr.com/quiz/41038548/python-2 12/25
+--- Page 13 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+13Answer the questions about documenting Python code by selecting the correct option from
+each drop-down list.
+Whitch caracter(s) signal the beginning and ending of single-line docstring?
+[blank_start]1[blank_end]
+When documenting a function, what is the standart location for the docstring?
+[blank_start]2[blank_end]
+Review the following function:
+def cube(n):
+""" Returns the cube of number n """
+return n*n*n
+Whitch command will print the docstring? [blank_start]1[blank_end]
+"""
+#
+B
+C //
+*
+D /
+E Immediately after the function header
+F Before the function header
+G Immediately before the return statement
+H Outside the function body at the end of
+I print(cube.__doc__)
+J print(cube.doc)
+K print(cube.__doc__())
+L print(help(cube.__doc__))
+A
+https://www.goconqr.com/quiz/41038548/python-2 13/25
+--- Page 14 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+14 You are developing a Python program for an online product distribution company.
+The program must iterate through a list of products ( productldList') and escape when it
+finds a specific product ID.
+Complete the code by selecting the correct code segment
+from each drop-down list.
+productldList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+index= 0
+[blank_start]1[blank_end] (index <
+10):
+print(productldList[index])
+if productldList[index] == 6:
+[blank_start]2[blank_end]
+else:
+[blank_start]3[blank_end]
+while
+B for
+C if
+D loop
+E break
+F continue
+G exit
+H return
+I index += 1
+J index =+
+1
+K index++
+L count += 1
+A
+https://www.goconqr.com/quiz/41038548/python-2 14/25
+--- Page 15 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+15 You write the following code:
+a ='Config1'
+print(a)
+b = a
+a += 'Config2'
+print(a)
+print(b)
+drop-down list.
+Evaluate the code and answer the questions by selecting the correct option from each
+What is displayed after the second print? [blank_start]1[blank_end]
+What is displayed after the third print? [blank_start]2[blank_end]
+A Config1Config2
+B Config2
+C TypeError
+D Config1
+E Config1Config2
+F Config2
+G NameError
+https://www.goconqr.com/quiz/41038548/python-2 15/25
+--- Page 16 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+16 You are writing code to return a letter grade based on the following criteria:
+- Thevariable grade' stores the numeric grade as a whole number between 0 and 100.
+- Grades from 90 to 100 = A.
+- Grades from 80 to 89 = B
+- Grades from 70 to 79 = C.
+- All other grades are failing.
+Complete the code by selecting the correct code segment from each drop-down list.
+[blank_start]1[blank_end] grade <= 100:
+[blank_start]2[blank_end] grade>= 90:
+print("Your grade is A.")
+[blank_start]3[blank_end] grade >= 80:
+print("Your grade is B.")
+[blank_start]4[blank_end] grade < 80 [blank_start]5[blank_end] grade> 69:
+print("Your grade is C.")
+[blank_start]6[blank_end]
+print("Your grade is failing.")
+[blank_start]7[blank_end]
+print("Invalid grade entered.")
+if
+B else
+C elif
+D and
+E if
+F else
+G elif
+H and
+I elif
+J else
+K and
+L if
+M elif
+N else
+O if
+P and
+Q if
+R else
+S and
+T elif
+U else
+A
+https://www.goconqr.com/quiz/41038548/python-2 16/25
+--- Page 17 ---
+11/2/26, 6:43 PM V elif
+W if
+X and
+Y else
+Z elif
+AA
+and
+B if
+Python 2 | Quiz
+A
+17 You are writing a function to read a data file and print the results as a formatted table.
+You write code to read a line of data into a list named fields.
+The printout must be formatted to meet the following requirements:
+· Fruit name (fields[0]): Left-aligned in a column 10 spaces wide.
+· Weight (fields[1]): Right-aligned in a column 5 spaces wide with one digit after the decintl point.
+· Price (fields[2]): Right-aligned in a column 7 spaces wide with two digits after the decimal point.
+The following shows a sample output:
+Oranges 5.6 1.33
+Complete the code using drag-and-drop by placing the correct formatting segments:
+print(" [blank_start]1[blank_end] [blank_start]2[blank_end]
+[blank_start]3[blank_end]".format(fields[0], eval(fields[1]), eval(fields[2])))
+A {0:10}
+B {
+10:0)
+C {
+5:1f}
+D (7:2f)
+E {
+1:5.1f)
+F (2:7.2f)
+https://www.goconqr.com/quiz/41038548/python-2 17/25
+--- Page 18 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+18 You are writing a program that calculates a user's approximate year of birth.
+The program asks users for the user's age ('age') and the current year ( year'),
+then outputs the user's approximate year of birth ('born') in a message ('message').
+You write the following code:
+age = input("Enter your age:")
+year = 2
+000
+born = year - int(age)
+message = "You were born in " + str(born)
+print(message)
+Evaluate the code and answer the questions by selecting the correct option from each drop-down
+list.
+What data type is age in line 01
+? [blank_start]1[blank_end]
+What data type is born in line 03
+? [blank_start]2[blank_end]
+What data type is message in line 05
+? [blank_start]3[blank_end]
+int
+B string
+C float
+D int
+E float
+F string
+G list
+H string
+I int
+J text
+K float
+A
+https://www.goconqr.com/quiz/41038548/python-2 18/25
+--- Page 19 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+19 Complete the statements about assert methods by selecting the correct option from each drop-
+down list.
+To test that the value of variables a and b are the same, use: [blank_start]1[blank_end]
+To test that objects a and b are the same, use: [blank_start]2[blank_end]
+To test weather a value exists in a list, use: [blank_start]3[blank_end]
+assertEqual(a, b)
+B assertValue(a, b)
+C assertEqual(a == b)
+D assertSame(a, b)
+E assertIs(a, b)
+F assertSameObject(a, b)
+G assertIdentity(a, b)
+H assertIsInstance(a, b)
+I assertIn(a, b)
+J assertContains(a, b)
+K assertExists(a, b)
+L assertIn(b, a)
+A
+20 You are writing a function to perform safe division of numbers.
+You need to ensure that a denominator and numerator are passed to the function and that the
+denominator is not zero.
+Complete the code by selecting the correct code segment from each drop-down list.
+def safe_divide(numerator, denominator):
+[blank_start]1[blank_end]
+print("A required value is missing.")
+[blank_start]2[blank_end]
+print("The denominator is zero.")
+else:
+return numerator / denominator
+if numerator is None ordenominatorisNone
+B elif denominator == 0:
+C elif denominator == 0:
+D if denominator == 0:
+E elif denominator = 0:
+F else denominator == 0:
+A
+https://www.goconqr.com/quiz/41038548/python-2 19/25
+--- Page 20 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+21 You create the following program to locate a conference room and display the room name.
+The program outputs "Room does not exist." even when 1 or 2 is entered.
+01 rooms = {
+1: 'Foyer', 2: 'Conference Room'}
+02 room = input('Enter the room number: ')
+03
+if not room in rooms:
+04 print('Room does not exist.')
+05 else:
+06 print("The room name is " + rooms[room])
+Evaluate the code and answer the questions by selecting the correct option from each drop-down
+list.
+Which two data types are stored in the rooms dictionary at line 01
+? [blank_start]1[blank_end]
+What is the data type of room at line 02? [blank_start]2[blank_end]
+Why does line 03 fail to find the rooms? [blank_start]3[blank_end]
+int and string
+B string and float
+C list and tuple
+D object and array
+E int
+F float
+G str
+H dict
+I Invalid synta/Data type mismatch
+J KeyError
+K
+Dictionary is empty
+A
+https://www.goconqr.com/quiz/41038548/python-2 20/25
+--- Page 21 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+22 You are creating an interactive Times Table Helper program intended for elementary school
+children.
+You need to complete a function named times_tables that computes and displays all multiplication
+table results from 2 to 1
+2, as shown below:
+4 6 8 10 1
+1
+2
+4
+16 18 20 22 24
+6 9 1
+2
+15 18 2
+1
+24 27 30 33 36
+8 1
+2
+16 20 24 28 3
+2
+36 40 44 48
+10 15
+20 2
+5 30 35
+40 4
+5 50 55 60
+1
+2
+18 24
+30 36 42 48 5
+4 60 66 72
+1
+4 2
+1
+28 35
+42 49 56 63 70 77 84
+16 24
+3
+2 40 48 56 64 72 80 88 96
+18 27 36 4
+5 5
+4 63 72 81 90 99 108
+20 30 40 50 60 70 80 90 100 110 1
+0
+2
+33
+55 66 77 88 99 110 1
+1 13
+22
+44
+2
+2
+1
+24
+36 48 60 72 84 96 108 1
+20 13
+2
+44
+Complete the missing code segments by selecting the correct options from each drop-down list.
+# Display time tables 2 - 1
+2
+def times_tables():
+[blank_start]1[blank_end]
+[blank_start]2[blank_end]
+print(row * col, end ="")
+print(
+#
+main
+times_tables()
+A
+for col in range(2, 13):
+B for col in range(2, 1
+2):
+C for col in range(
+13):
+D for col in range(2, 13)
+E for row in range(2, 13):
+F for row in range(2, 1
+2):
+G while row <
+13:
+H for row in col:
+https://www.goconqr.com/quiz/41038548/python-2 21/25
+--- Page 22 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+23 You are writing a Python application that includes multiple operations on the same line
+You need to determine the correct order of operations.
+of code.
+Move the type of operation from the list on the left to the correct locations on the
+with the type of operation that will be performed first at the top and the type of
+right.
+operation
+that will be performed last at the bottom.
+Operation type performed first: [blank_start]1[blank_end]
+Operation type performed second: [blank_start]2[blank_end]
+Operation type performed third: [blank_start]3[blank_end]
+Operation type performed fourth: [blank_start]4[blank_end]
+Operation type performed fifth: [blank_start]5[blank_end]
+Operation type performed last: [blank_start]6[blank_end]
+Parentheses
+B
+Exponents
+C Unary positive, negative, not
+D Multiplication and Division
+EAddition and Subtraction
+FAnd
+A
+24 You need to identify the data types of various type operations.
+Move the appropriate data types from the list to the correct type operations on the
+right.
+You may use each data type once, more than once, or not at all.
+type(+
+1
+E
+10) [blank_start]1[blank_end]
+type(
+5.0) [blank_start]2[blank_end]
+type("True") [blank_start]3[blank_end]type(False) [blank_start]4[blank_end]
+int
+B float
+C str
+D bool
+A
+https://www.goconqr.com/quiz/41038548/python-2 22/25
+--- Page 23 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+2501
+04
+05
+import datetime
+02 dailySpecials=("Spaghetti","Macaroni and Cheese","Meatloaf","Fried Chicken")
+03 weekendSpecials=("Lobster","Prime Rib","Parmesan-Crusted Cod")
+06 print("My Healthy Eats Delivery")
+07 if today == "Friday" or today == "Saturday" or today == "Sunday":
+08 print("The weekend specials include:")
+09 for item in weekendSpecials:
+10 print(item)
+11 else:
+1
+2 print("The weekday specials include: ")
+13 for item in dailySpecials:
+1
+4 print(item)
+15
+16 print(f"Pricing specials change in {daysLeft} days")
+Complete the code in lines 04, 05, and 15
+by selecting the correct option from each
+drop-down list.
+In line 04, retrieve the current date. [blank_start]1[blank_end]
+In line 05, retrieve the weekday. [blank_start]2[blank_end]
+In line 15, calculate the number of days left in the week. [blank_start]3[blank_end]
+A now = datetime.datetime.now()
+B now = datetime.now()
+C now = datetime.datetime.today
+D now = datetime.date()
+E today = now.strftime("%
+A")
+F today = now.strftime("%a")
+G today = now.weekday()
+H today = datetime.get_day_name(now)
+I daysLeft = 6 - now.weekday()
+J daysLeft = 7 - now.weekday()
+K daysLeft = 6 - datetime.datetime.weekday
+L daysLeft = len(weekendSpecials)
+https://www.goconqr.com/quiz/41038548/python-2 23/25
+--- Page 24 ---
+11/2/26, 6:43 PM Python 2 | Quiz
+26 You need to test whether an object is an instance of a specific class.
+Complete the code by selecting the correct option from each drop-down list.
+import [blank_start]1[blank_end] unittest
+class TestlsInstance [blank_start]2[blank_end]
+def [blank_start]3[blank_end] (self):
+[blank_start]4[blank_end]
+if name == ' main_':
+unittest.main()
+import
+B from
+C include
+D require
+E unittest.TestCase
+F unittest
+G TestCase
+H unittest.TestResult
+I test_isInstance
+J test_isInstance(self)
+K check_isInstance
+L isInstance
+M self.assertIsInstance(obj, cls, msg=None
+N unittest.assertIsInstance(obj, cls)
+O self.isInstance(obj, cls)
+P self.assertTrue(obj == cls)
+A
+Information
+Description Quiz on Python 2, created by Lilian Sw on 05
+/
+07/2
+0
+26.
+Author Lilian Sw
+Language English
+Views 591
+https://www.goconqr.com/quiz/41038548/python-2 24/25
+--- Page 25 ---
+11/2/26, 6:43 PM History Python 2 | Quiz
+Created on 5 Jul 2026 · updated on 16 Jul 2
+0
+26
+No ratings yet
+Rating
+Rate this quiz
+Report this quiz
+https://www.goconqr.com/quiz/41038548/python-2 25/25

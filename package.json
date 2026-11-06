@@ -1,0 +1,1 @@
+{"name":"python-cert-practice","version":"1.0.0","private":true,"description":"Python certification quizzes and performance-based coding practice","scripts":{"dev":"python3 -m http.server 4173 --directory public","check":"node --check public/app.js && node --check public/engine-worker.js"},"type":"module"}
